@@ -27,6 +27,7 @@ jobs:
       run: |
          git config --local user.email "mulander_j@outlook.com"
          git config --local user.name "Mulander-J"
+         git pull
          git add README.md
          git add bing-wallpaper.md
          git commit -m "update readme.md"
